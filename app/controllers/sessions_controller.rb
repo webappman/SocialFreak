@@ -4,8 +4,8 @@ class SessionsController < ApplicationController
       @user = User.form_omniauth(request.env['omniauth.auth'])
       session[:user_id] = @user.id
       flash[:success] = "Welcom, #{@user.name}!"
-    rescue => exception
-      flash[:success] = "There was an error while trying to authenticate you..."
+    rescue
+      flash[:warning] = "There was an error while trying to authenticate you..."
     end
     redirect_to root_path
   end
@@ -15,6 +15,10 @@ class SessionsController < ApplicationController
       session.delete(:user_id)
       flash[:success] = 'See you!'
     end
+    redirect_to root_path
+  end
+
+  def auth_failure
     redirect_to root_path
   end
 end
