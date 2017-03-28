@@ -1,0 +1,30 @@
+Started GET "/" for 127.0.0.1 at 2017-03-28 10:59:52 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/work/.rvm/gems/ruby-2.4.0/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/work/.rvm/gems/ruby-2.4.0/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb (8.1ms)
+Completed 200 OK in 44ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-28 11:39:18 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/work/.rvm/gems/ruby-2.4.0/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/work/.rvm/gems/ruby-2.4.0/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 23ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-28 11:42:32 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7758ms (Views: 7745.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-28 11:42:46 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
